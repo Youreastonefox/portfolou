@@ -1,45 +1,28 @@
-# portfolou
+# Portfolou
 
-This template should help get you started developing with Vue 3 in Vite.
+A portflio's website by Louisa Chaduc.
 
-## Recommended IDE Setup
+## Intern commands
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+`npm install` : Project Setup  
+`npm run dev` : Compile and Hot-Reload for Development  
+`npm run build` : Type-Check, Compile and Minify for Production  
+`npm run test:unit` : Run Unit Tests with [Vitest](https://vitest.dev/)  
+`npm run lint` : Lint with [ESLint](https://eslint.org/)
 
-## Type Support for `.vue` Imports in TS
+## Commit messages template
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+It's based on the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/), and adapted to my vision.
 
-## Customize configuration
+**Structure :** `<icon><type>[optional scope]: <description>`
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+**Possible types :**
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- `🔧 feat`: New feature
+- `🐞 fix`: Bug fix
+- `📝 docs`: Simply documentation or commentaries
+- `🎨 style`: Formatting, indentation, linting (no code changes)
+- `🔁 refactor`: Refactoring without adding/removing features
+- `🚀 perf`: Performance improvements
+- `✅ test`: Adding/modifying tests
+- `⚙️ chore`: Internal tasks: build, dependencies, configuration, etc.
