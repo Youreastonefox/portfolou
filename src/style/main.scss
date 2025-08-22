@@ -1,0 +1,27 @@
+@use 'variables' as *;
+@use 'typos' as *;
+@use 'mixins' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html {
+  background-color: white;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+html.dark {
+  background-color: black;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Providence Sans', 'Anonymous Pro', Roboto, 'Helvetica Neue', sans-serif;
+}
